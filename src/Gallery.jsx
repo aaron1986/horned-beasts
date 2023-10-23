@@ -2,10 +2,12 @@ import Header from './Header.jsx'
 
 export default function Gallery({ title, imageUrl, description }) {
     return (
-            <div className='grid'>
-                <img src={imageUrl} alt={title} />
-                    <h2>{title}</h2>
+        <div gallery>
+            <h2>{title}</h2>
+              <img src={imageUrl} alt={title} />
                  <p>{description}</p>
-            </div>
+        </div> 
     );
 }
+
+

@@ -1,9 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin:0;
+  padding: 0;
+}
+
 header {
   background-color: aquamarine;
+  top: 0px;
 }
 
 .grid {
   background-color: aqua;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
 }
 
 img {
@@ -30,9 +43,9 @@ background-color: blue;
 /* Original CSS */
 #root {
   max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
   text-align: center;
+  width: 100vw;
+  margin-top: -3%;
 }
 
 .logo {

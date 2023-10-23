@@ -9,27 +9,27 @@ function App() {
 
   const galleryItems = [
     {
-      title: "Title 1",
+      title: "Devil Image 1",
       imageUrl: "./src/img/image1.jpg",
       description: "Description for image 1",
     },
     {
-      title: "Title 2",
+      title: "Devil Image 2",
       imageUrl: "./src/img/image2.jpg",
       description: "Description for image 2",
     },
     {
-      title: "Title 3",
+      title: "Devil Image 3",
       imageUrl: "./src/img/image3.jpg",
       description: "Description for image 3",
     },
     {
-      title: "Title 4",
+      title: "Devil Image 4",
       imageUrl: "./src/img/image4.jpg",
       description: "Description for image 4",
     },
     {
-      title: "Title 5",
+      title: "Devil Image 5",
       imageUrl: "./src/img/image5.jpg",
       description: "Description for image 5",
     }
@@ -37,7 +37,7 @@ function App() {
   return (
    <div className='App'>
      <Header />
-     <section className="gallery">
+     <div className="grid">
         {galleryItems.map((item, index) => (
           <Gallery
             key={index}
@@ -46,7 +46,7 @@ function App() {
             description={item.description}
           />
         ))}
-      </section>
+      </div>
      <Footer />
    </div>
   );

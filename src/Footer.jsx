@@ -5,7 +5,7 @@ export default function Footer() {
     return (
 <footer>
     <div className="footer-info">
-    &copy; <p>Aaron Bruce Smith.</p>
+    <p>&copy; Aaron Bruce Smith.</p>
     </div>
 </footer>
     );

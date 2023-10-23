@@ -1,3 +1,33 @@
+header {
+  background-color: aquamarine;
+}
+
+.grid {
+  background-color: aqua;
+}
+
+img {
+  width: 300px;
+  height: 300px;
+}
+
+footer {
+background-color: blue;
+}
+
+.footer-info {
+  display: flex;
+  justify-content: center;
+}
+
+
+
+
+
+
+
+
+/* Original CSS */
 #root {
   max-width: 1280px;
   margin: 0 auto;
